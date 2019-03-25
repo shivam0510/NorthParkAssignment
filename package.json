@@ -1,0 +1,32 @@
+{
+  "name": "northparkassignment",
+  "version": "1.0.0",
+  "description": "Nuxt.js project",
+  "author": "Shivam Agarwal <shivam.agarwal0510@gmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.4.1",
+    "apexcharts": "^3.6.3",
+    "axios": "^0.18.0",
+    "chart.js": "^2.8.0",
+    "hchs-vue-charts": "^1.2.8",
+    "nuxt": "^2.0.0",
+    "vue-apexcharts": "^1.3.1",
+    "vue-js-modal": "^1.3.28"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^4.19.1",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-vue": "^4.0.0"
+  }
+}
